@@ -16,6 +16,6 @@ public class cubeGen : MonoBehaviour {
 
 	void FixedUpdate(){
 		float temp = transform.position.x + 0.1f;
-        transform.position = new Vector3(temp,  0.0f, 0.0f);
+        transform.position = new Vector3(temp, 0.0f, 0.0f);
     }
 }
