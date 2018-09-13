@@ -13,7 +13,7 @@ public class imager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         print("hi");
-        Texture2D something = RTImage(GetComponent<Camera>());
+        //Texture2D something = RTImage(GetComponent<Camera>());
         //print(something);
 		
 	}
