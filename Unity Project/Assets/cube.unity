@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 1334665509}
   - component: {fileID: 1334665508}
   - component: {fileID: 1334665511}
+  - component: {fileID: 1334665512}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -268,6 +269,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc154e3ebb31646198d9547f0333a481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1334665512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1334665507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06757ea82864547d7942942b51091d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captureWidth: 1920
+  captureHeight: 1080
+  hideGameObject: {fileID: 0}
+  optimizeForManyScreenshots: 1
+  format: 2
+  folder: 
 --- !u!1 &1616462429
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50ea7277e247b4180ab22be2f5ef766e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  max_x: 10
+  min_x: 0
+  max_y: 10
+  min_y: 0
 --- !u!65 &1616462431
 BoxCollider:
   m_ObjectHideFlags: 0
